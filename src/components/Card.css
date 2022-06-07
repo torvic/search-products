@@ -1,0 +1,39 @@
+.product {
+	margin: 10px;
+	border: 1px solid gray;
+	display: flex;
+	border-radius: 5px;
+}
+
+.product__name {
+	font-size: 16px;
+	padding: 0 20px 0 0;
+}
+
+.product__image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.product__image > img {
+	height: 150px;
+	width: 150px;
+}
+
+.product__content {
+	margin-left: 10px;
+}
+
+.product__description {
+	padding-right: 10px;
+}
+
+.product__price {
+	margin-bottom: 10px;
+}
+
+.product__price > p{
+	margin: 0;
+}
