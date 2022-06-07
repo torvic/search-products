@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.e-container{
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px){
+  .e-container{
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 960px){
+  .e-container{
+    width: 85%;
+    max-width: 85%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .e-container{
+    max-width: 1024px;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
